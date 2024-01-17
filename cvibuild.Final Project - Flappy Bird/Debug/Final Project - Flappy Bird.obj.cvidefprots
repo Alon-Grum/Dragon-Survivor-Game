@@ -1,0 +1,112 @@
+[Key_DownFunc]
+Class="Function"
+Prototype="int Key_DownFunc(int panel, int message, unsigned int *wParam, unsigned int *lParam, void *callbackData);"
+
+[Key_UpFunc]
+Class="Function"
+Prototype="int Key_UpFunc(int panel, int message, unsigned int *wParam, unsigned int *lParam, void *callbackData);"
+
+[Connect_To_Windows_Events]
+Class="Function"
+Prototype="void Connect_To_Windows_Events();"
+
+[initialize]
+Class="Function"
+Prototype="void initialize();"
+
+[Terminate]
+Class="Function"
+Prototype="void Terminate();"
+
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+
+[exitPanel]
+Class="Function"
+Prototype="int exitPanel(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+
+[exitPanel2]
+Class="Function"
+Prototype="int exitPanel2(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+
+[exitPanel3]
+Class="Function"
+Prototype="int exitPanel3(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+
+[exitPanel4]
+Class="Function"
+Prototype="int exitPanel4(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+
+[draw]
+Class="Function"
+Prototype="void draw();"
+
+[update]
+Class="Function"
+Prototype="void update();"
+
+[Check_Hits]
+Class="Function"
+Prototype="int Check_Hits();"
+
+[is_key_pressed]
+Class="Function"
+Prototype="void is_key_pressed();"
+
+[Dragon_Hit]
+Class="Function"
+Prototype="void Dragon_Hit();"
+
+[timerFunc]
+Class="Function"
+Prototype="int timerFunc(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[BonusTimerFunc]
+Class="Function"
+Prototype="int BonusTimerFunc(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[update_bonus]
+Class="Function"
+Prototype="void update_bonus();"
+
+[draw_bonus]
+Class="Function"
+Prototype="void draw_bonus();"
+
+[Bonus_Check_Hits]
+Class="Function"
+Prototype="int Bonus_Check_Hits();"
+
+[is_key_pressed_bonus]
+Class="Function"
+Prototype="void is_key_pressed_bonus();"
+
+[Finish_Bonus]
+Class="Function"
+Prototype="void Finish_Bonus();"
+
+[Update_Score_List]
+Class="Function"
+Prototype="void Update_Score_List();"
+
+[StartgameFunc]
+Class="Function"
+Prototype="int StartgameFunc(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[ScoreListFunc]
+Class="Function"
+Prototype="int ScoreListFunc(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[aboutFunc]
+Class="Function"
+Prototype="void aboutFunc(int menuBar, int menuItem, void *callbackData, int panel);"
+
+[helpFunc]
+Class="Function"
+Prototype="void helpFunc(int menuBar, int menuItem, void *callbackData, int panel);"
+
+[demoFunc]
+Class="Function"
+Prototype="void demoFunc(int menuBar, int menuItem, void *callbackData, int panel);"
+

@@ -1,0 +1,52 @@
+[Key_DownFunc]
+Class="Function"
+Prototype="int Key_DownFunc(int panel, int message, unsigned int *wParam, unsigned int *lParam, void *callbackData);"
+
+[Key_UpFunc]
+Class="Function"
+Prototype="int Key_UpFunc(int panel, int message, unsigned int *wParam, unsigned int *lParam, void *callbackData);"
+
+[Connect_To_Windows_Events]
+Class="Function"
+Prototype="void Connect_To_Windows_Events();"
+
+[InitMP3s]
+Class="Function"
+Prototype="void InitMP3s();"
+
+[ReleaseMP3s]
+Class="Function"
+Prototype="void ReleaseMP3s();"
+
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+
+[panelFunc]
+Class="Function"
+Prototype="int panelFunc(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Play1]
+Class="Function"
+Prototype="int Play1(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Stop1]
+Class="Function"
+Prototype="int Stop1(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Play2]
+Class="Function"
+Prototype="int Play2(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Stop2]
+Class="Function"
+Prototype="int Stop2(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[volume]
+Class="Function"
+Prototype="int volume(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[tick]
+Class="Function"
+Prototype="int tick(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
